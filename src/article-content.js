@@ -1,46 +1,23 @@
 const articles = [
   {
     id: '1',
-    uuid: 'uuid11',
-    name: 'learn-react',
-    title: 'The Fastest Way to Learn React',
-    content: [
-      `Welcome! Today we're going to be talking about the fastest way to
-            learn React. We'll be discussing some topics such as proin congue
-            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-            sodales purus euismod.`
-    ]
-  }, {
+    uuid: '2New6York1Time5899',
+    name: 'Quarantine',
+    title: 'Quarantining With a Ghost? Its Scary',
+    content: 'For those who believe theyre locked down with spectral roommates, the pandemic has been less isolating than they bargained for. It started with the front door. Adrian Gomez lives with his partner in Los Angeles, where their first few days of sheltering in place for the coronavirus pandemic proved uneventful. They worked remotely, baked, took a two-mile walk each morning and refinished their porcelain kitchen sink. But then, one night, the doorknob began to rattle vigorously, so loud he could hear it from across the apartment. Yet no one was there. In mid-April, Mr. Gomez was in bed when a nearby window shade began shaking against the window frame so intensely — despite the fact that the window was closed, an adjacent window shade remained perfectly still, the cats were all accounted for, and no bug nor bird nor any other small creature had gotten stuck there — that Mr. Gomez thought it was an earthquake. I very seriously hid myself under the comforter, like you see in horror movies, because it really did freak me out he said. Now, though neither he nor his partner noticed any unexplained activity at home before this, the couple can distinctly make out footsteps above their heads. No one lives above them. Im a fairly rational person, said Mr. Gomez, who is 26 and works in I.T. support. I try to think, What are the reasonable, tangible things that could be causing this? But when I dont have those answers, I start to think, Maybe something else is going on. Theyre not alone … possibly in more ways than one.For those whose experience of self-isolation involves what they believe to be a ghost, their days are punctuated not just by Zoom meetings or home schooling, but by disembodied voices, shadowy figures, misbehaving electronics, invisible cats cozying up on couches, caresses from hands that arent there and even, in some cases — to borrow the technical parlance of Ghostbusters — free-floating, full-torso vaporous apparitions. Some of these people are frightened, of course. Others say they just appreciate the company.' 
+  }, 
+  {
     id: '2',
-    uuid: 'uuid12',
-    name: 'learn-node',
-    title: 'How to Build a Node Server in 10 Minutes',
-    content: [
-      `In this article, we're going to be talking looking at a very quick way
-            to set up a Node.js server. We'll be discussing some topics such as proin congue
-            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-            sodales purus euismod.`
-    ]
+    uuid: '33live467science9098',
+    name: 'Fame',
+    title: 'Top 10 most famous ghosts',
+    content: 'Ghosts have been a staple of storytelling for centuries, and these tales stand out among them all. Ghosts are both everywhere and nowhere, stories would have us believe. Their existence is constantly being investigated, but highly doubted, yet despite that healthy scepticism ghosts feature prominently in our culture. They are in television and film, from Harry Potter to The Sixth Sense. Ghost stories are told around campfires and found on bookstore shelves, in both fiction and nonfiction sections. Around Halloween, pop-culture images of ghosts haunt nearly every store, and hang as decoration in homes. Ghosts even influence some of our everyday customs, in ways we may not recognize. People used to believe a sneeze caused someone to expel their soul out of their body, and so God bless you or Bless you was used as a protection against the devil snatching your soul, according to MIT. Here are some of the most famous ghosts of all time.'
   }, {
     id: '3',
-    uuid: 'uuid13',
-    name: 'mongodb',
-    title: 'Learn MongoDB',
-    content: [
-      `Today is the day I talk about something which scares most people: resumes.
-            In reality, I'm not sure why people have such a hard time with proin congue
-            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-            sodales purus euismod.`
-    ]
+    uuid: '99atu88.edu',
+    name: 'Existence',
+    title: 'Ghosts Do Exist',
+    content: 'The existence of ghosts is a huge controversy in todays society. Some believe that there is no way that a spirit can make itself appear in front of a person, and some believe that spirits show up on a regular basis in peoples lives. There is a lot of evidence that has been gathered over the years, mostly personal accounts, that continues to prove the existence of ghosts. Some kinds of evidence that prove ghosts exist are photographs, personal experiences, and new scientific evidence. Many photographs have been taken over the years where a ghost has shown up in the picture. Most people do not notice the ghost at the time, but the ghost later shows up in the print. When seeing the photo, most people will try to disprove the photo by attempting to recreate the picture. These people will usually then find that the photo cannot be recreated. A good example of a photo with a ghost in it was a picture taken in 1996. A man named Ike Clanton dressed in a cowboy outfit and had a friend take a picture of him in Boothill Graveyard in Tombstone, Arizona. When later looking at the photograph, Clanton noticed that a man who was not present at the time the photo was taken was in the background of the picture. Clanton later attempted to recreate the photo with a buddy of his and learned that “it was impossible to recreate the picture without having the legs visible.'
   },  
 ];
 
