@@ -1,9 +1,20 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
+import articles from '../../article-content';
 
-export default function Article() {
+export default function Articles() {
+  const { id } = useParams();
+  const targetArticle = articles.find(article => article.id === id);
+  const { title, content } = targetArticle;
   return (
-    <div>      
-      <h1>This is the Article Page</h1>
-    </div>
+    <>
+      <h1>{ title }</h1>
+      {
+        content.map(
+          (par) => (
+            <p key={id}>{ par }</p>
+          ))    
+      }
+    </>
   );
 }

@@ -14,8 +14,8 @@ export default function App() {
       <NavBar />
       <Switch>
         <Route exact path='/about'><About /></Route>
-        <Route path='/articles/:articleId'><Articles /></Route>
-        <Route path='/article'><Article /></Route>
+        <Route path='/articles'><Articles /></Route>
+        <Route path='/article/:id'><Article /></Route>
         <Route path='/'><Home /></Route>
       </Switch>
     </main>
