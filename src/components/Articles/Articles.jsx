@@ -6,11 +6,13 @@ export default function Articles() {
   return (
     <>
       {
-        articles.map((a) => (
-          <Link key={ a.id} className="article-list-item" to={`/article/${ a.id }`}>
-            <h3>{ a.title }</h3>
-            <p>{ a.content[0].substring(0, 150)}...</p>
-          </Link>
+        articles.map(({ id, name, title, content }) => (
+          <> 
+            <Link key={ name } className="article-list-item" to={`/article/${ id }`}>
+              <h3>{ title }</h3>
+              <p>{ content[0].substring(0, 150)}...</p>
+            </Link>
+          </>
         ))   
       }
     </>
