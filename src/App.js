@@ -1,22 +1,23 @@
-import './App.css';
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+import NavBar from './components/NavBar/NavBar';
 import Home from './components/Home/Home';
 import Articles from './components/Articles/Articles';
 import Article from './components/Article/Article';
 import About from './components/About/About';
 
+import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1>This Darn Ghost</h1>
-      <div id="page-body">Welcome to this darn ghost!
-        <Home />
-        <About />
-        <Articles />
-        <Article />
-      </div>
-    </div>
+    <main className="App">
+      <NavBar />
+      <Switch>
+        <Route exact path='/about'><About /></Route>
+        <Route path='/articles/:articleId'><Articles /></Route>
+        <Route path='/article'><Article /></Route>
+        <Route path='/'><Home /></Route>
+      </Switch>
+    </main>
   );
 }
-
-export default App;

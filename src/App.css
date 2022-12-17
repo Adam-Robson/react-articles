@@ -1,14 +1,25 @@
+* {
+    box-sizing: border-box;
+    --raisin-black: hsla(309, 8%, 17%, 1);
+    --independence: hsla(246, 14%, 29%, 1);
+    --lavender-web: hsla(235, 46%, 90%, 1);
+    --nyanza: hsla(78, 100%, 90%, 1);
+    --flax: hsla(48, 64%, 70%, 1);
+  --bright-maroon: hsla(348, 52%, 46%, 1);
+
+  }
+
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Quicksand', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
 }
 
 button {
   padding: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'DoQuicksand', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
-  background-color: black;
-  color: white;
+  background-color: var(--independence);
+  color: var(--lavender-web);
   border-radius: 8px;
   cursor: pointer;
 }
@@ -18,12 +29,10 @@ h3, h4 {
 }
 
 nav {
-  border-bottom: 4px solid black;
   text-align: center;
   position: fixed;
   top: 0;
   width: 100%;
-  background: white;
 }
 
 nav ul {
@@ -40,14 +49,14 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color:  var(--independence);;
   font-weight: bold;
   padding: 24px 32px;
 }
 
 nav a:hover {
-  background: black;
-  color: white;
+  background:  var(--independence);;
+  color: var(--lavender-web);;
 }
 
 #page-body {
@@ -58,17 +67,17 @@ nav a:hover {
 
 .article-list-item {
   text-decoration: none;
-  color: black;
+  color:  var(--independence);;
   padding: 16px 0 0 0;
 }
 
 .article-list-item p {
   padding-bottom: 32px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid  var(--independence);;
 }
 
 #add-comment-form {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid  var(--independence);;
   padding: 16px;
 }
 
@@ -83,14 +92,14 @@ input, textarea {
   border-radius: 8px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
-  border: 2px solid black;
+  border: 2px solid  var(--independence);;
   margin-bottom: 16px;
 }
 
 .error {
   padding: 8px;
   border-radius: 4px;
-  background-color: pink;
+  background-color: var(--bright-maroon);
 }
 
 #add-comment-form button {
@@ -103,7 +112,7 @@ input, textarea {
 }
 
 .comment {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid  var(--independence);;
   padding: 16px;
 }
 
